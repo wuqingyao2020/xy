@@ -1,0 +1,16 @@
+body{background-color: #000000;}
+		.container-fluid>div{width: 50%;}
+		.my_f1{font-size: 20px;color: #fff;}
+		.my_f2{font-size: 56px;color: #fff;margin: 56px 0 61px;font-weight: bold;}
+		input{width: 100%;height: 64px;background-color: #000000;padding: 16px;font-size: 16px;color: #767676;}
+		.my_f3{font-size: 16px;}
+		.my_f4{color: #AAAAAA;}
+		button{width: 78px;height: 40px;background-color: rgb(0, 157, 224);color: #fff;}
+		.container-fluid>div:nth-child(2){height: 100%;}
+		@media (max-width:959px) {
+			.container-fluid>div:first-child{width: 90%;padding:8% 6% 6% 15%;}
+			.container-fluid>div:nth-child(2){display: none;}
+		}
+		@media (min-width:960px) {
+			.container-fluid>div:first-child{padding:4% 10% 4% 8%;}
+		}
